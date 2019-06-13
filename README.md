@@ -14,6 +14,18 @@ Print raw (ESC/POS, Zebra, etc.):
 curl -k https://localhost:9721/Printers/MyPrinter/Jobs -X POST -H "Content-Type: application/octet-stream" --data-binary @myfile.bin
 ```
 
+## Install
+Install the tool using the following command:
+```
+dotnet tool install restprint
+```
+
+## Run
+Run the server using the `restprint` command. To allow browsers to print, one can allow cors origins with the `--origins` option:
+```
+restprint --origins "https://my-pos-system:5000;https://my-other-pos-system:5000"
+```
+
 ## Test Tool
 ```
 dotnet pack
