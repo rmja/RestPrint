@@ -11,6 +11,8 @@
     <Authors>Rasmus Melchior Jacobsen</Authors>
     <RepositoryUrl>https://github.com/rmja/restprint.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/rmja/restprint</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
