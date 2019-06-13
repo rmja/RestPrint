@@ -7,7 +7,7 @@
     <ToolCommandName>restprint</ToolCommandName>
 
     <PackageId>RestPrint</PackageId>
-    <PackageVersion>0.0.1</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
     <Authors>Rasmus Melchior Jacobsen</Authors>
     <RepositoryUrl>https://github.com/rmja/restprint.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
