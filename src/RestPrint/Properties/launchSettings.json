@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "RestPrint": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "Printers",
+      "applicationUrl": "http://localhost:9720;https://localhost:9721",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
