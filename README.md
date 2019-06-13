@@ -23,7 +23,7 @@ dotnet tool install -g restprint
 ## Run
 Run the server using the `restprint` command. To allow browsers to print, one can allow cors origins with the `--origins` option:
 ```
-restprint --origins "https://my-pos-system:5000;https://my-other-pos-system:5000"
+restprint --urls https://localhost:9721 --origins https://my-pos-system:5000;https://my-other-pos-system:5000
 ```
 
 ## Test Tool
