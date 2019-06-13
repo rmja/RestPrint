@@ -17,7 +17,7 @@ curl -k https://localhost:9721/Printers/MyPrinter/Jobs -X POST -H "Content-Type:
 ## Install
 Install the tool using the following command:
 ```
-dotnet tool install restprint
+dotnet tool install -g restprint
 ```
 
 ## Run
