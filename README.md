@@ -2,7 +2,7 @@
 
 RestPrint is a simple rest api that exposes the printers on the machine on where it is run through a simple JSON based REST api.
 
-Examples actions are:
+Example actions are:
 
 Get all installed printers:
 ```
